@@ -9,6 +9,8 @@ TEMPLATE = app
 
 SOURCES += main.cpp
 
+# opencv
+
 INCLUDEPATH += /usr/local/include/opencv
 LIBS += -L/usr/local/lib \
 -lopencv_core \
